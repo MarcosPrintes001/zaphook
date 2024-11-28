@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              // Versão do JS gerado
+    "module": "commonjs",            // Sistema de módulos para Node.js
+    "strict": true,                  // Ativa checagem estrita
+    "esModuleInterop": true,         // Suporte para importações do ES6
+    "skipLibCheck": true,            // Ignora verificações em bibliotecas
+    "outDir": "./dist"               // Pasta de saída dos arquivos JS compilados
+  },
+  "include": ["src/**/*"],           // Inclui arquivos TS da pasta "src"
+  "exclude": ["node_modules"]        // Exclui dependências externas
+}
